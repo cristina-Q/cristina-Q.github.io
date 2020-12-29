@@ -1,179 +1,6 @@
-@font-face {
-  font-family: 'Frijole';
-  src: url('/fonts/Frijole.woff2') format('woff2'), url('/fonts/Frijole.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Italic.woff2') format('woff2'), url('/fonts/Exo2-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Black.woff2') format('woff2'), url('/fonts/Exo2-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Bold.woff2') format('woff2'), url('/fonts/Exo2-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Regular.woff2') format('woff2'), url('/fonts/Exo2-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-BoldItalic.woff2') format('woff2'), url('/fonts/Exo2-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-BlackItalic.woff2') format('woff2'), url('/fonts/Exo2-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-ExtraLightItalic.woff2') format('woff2'),
-    url('/fonts/Exo2-ExtraLightItalic.woff') format('woff');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Regular.woff2') format('woff2'), url('/fonts/Exo2-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-ExtraLight.woff2') format('woff2'), url('/fonts/Exo2-ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-ExtraBold.woff2') format('woff2'), url('/fonts/Exo2-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-SemiBold.woff2') format('woff2'), url('/fonts/Exo2-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Italic.woff2') format('woff2'), url('/fonts/Exo2-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-ExtraBoldItalic.woff2') format('woff2'), url('/fonts/Exo2-ExtraBoldItalic.woff') format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-LightItalic.woff2') format('woff2'), url('/fonts/Exo2-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-MediumItalic.woff2') format('woff2'), url('/fonts/Exo2-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Light.woff2') format('woff2'), url('/fonts/Exo2-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Medium.woff2') format('woff2'), url('/fonts/Exo2-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-SemiBoldItalic.woff2') format('woff2'), url('/fonts/Exo2-SemiBoldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-Thin.woff2') format('woff2'), url('/fonts/Exo2-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/fonts/Exo2-ThinItalic.woff2') format('woff2'), url('/fonts/Exo2-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+/* -----------------------------------tests */
+.bg-yellow {
+  background-color: rgb(172, 172, 96);
 }
 
 html {
@@ -183,6 +10,15 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 :root {
@@ -195,6 +31,7 @@ html {
   --article-text-color: #444;
 }
 
+/* add day/night mode */
 /* [data-theme='light'] {
 } */
 
@@ -210,29 +47,36 @@ body {
 
 .cont {
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 1%;
-}
-
-/*              header         */
-.header__picture {
   width: 100%;
-  position: absolute;
-  z-index: -1;
+  margin: 0 auto;
 }
 
-.header-contact {
+/*                               HEADER   */
+
+.header {
+  background: url(/media/souspicious-animal.png) top center no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+
+.header__top {
+  padding: 5% 0 2% 5%;
+}
+
+.header__contact {
   display: flex;
   flex-direction: column;
   margin-left: 37%;
   padding: 2px 30px;
 }
 
-.header-contact > li > a > i {
+.header__contact > li > a > i {
   color: var(--secondary-color);
   font-size: 2.5rem;
 }
-.header-contact > li > a {
+
+.header__contact > li > a {
   font-family: 'Exo 2', sans-serif;
   font-style: light;
   font-weight: 300;
@@ -244,12 +88,12 @@ body {
   font-size: 1rem;
 }
 
-.header-contact > li:nth-child(1) {
+.header__contact > li:nth-child(1) {
   margin-bottom: 2%;
 }
 
-.header-contact > li > a:hover,
-.header-contact > li > a > i:hover {
+.header__contact > li > a:hover,
+.header__contact > li > a > i:hover {
   color: var(--primary-color);
 }
 
@@ -272,6 +116,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 6rem;
+  color: transparent;
   background-image: linear-gradient(45deg, var(--primary-color) 32.5%, var(--secondary-color) 50.5%);
   background-size: 100%;
   background-clip: text;
@@ -292,13 +137,13 @@ body {
   );
 }
 
-.shape-wrapper .header-shape-2 {
+.header-shape-2 {
   height: 7px;
   margin-bottom: 10px;
   background: linear-gradient(45deg, transparent 58.5%, var(--secondary-color));
 }
 
-.shape-wrapper .header-shape-3 {
+.header-shape-3 {
   height: 11px;
   background: linear-gradient(45deg, transparent 72%, var(--primary-color));
 }
@@ -343,34 +188,58 @@ body {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
 }
 
+/*                               MAIN   */
 .main__title {
-  font-family: 'Frijole', cursive;
   font-family: 'Frijole';
   font-weight: normal;
   font-style: normal;
   font-size: 4rem;
-  padding: 30px 0;
-}
-/*       main           */
-/* -------------------------------showcase section */
-.main__title {
   text-align: center;
+  padding-bottom: 30px;
+}
+.main__title i {
+  color: var(--secondary-color);
+}
+/* -------------------------------showcase section */
+/* .showcase {
+  margin-bottom: 10%;
+} */
+.showcase__picture img {
+  width: 100%;
 }
 
-.main__title > i {
+.showcase__article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase__picture {
+  flex-basis: 60%;
+}
+.showcase__detail {
+  text-align: center;
+  padding: 0 3%;
+  flex-basis: 40%;
+}
+
+.showcase__detail span {
+  font-size: 2rem;
   color: var(--secondary-color);
 }
 
-.showcase__item__main > a > img {
-  width: 100%;
-  min-width: 300px;
+.showcase__detail > p > a > i {
+  font-size: 2rem;
 }
 
-.showcase__item {
-  display: flex;
+.showcase__detail span:hover {
+  color: var(--primary-color);
 }
 
 /* --------------------------------- toolbox section */
+.showtools {
+  padding: 0 20px;
+}
 
 .showtools__title i {
   color: var(--secondary-color);
@@ -397,7 +266,7 @@ body {
   font-style: normal;
   margin-bottom: 10%;
 }
-/* ------------------------------------------- footer */
+/*                               FOOTER   */
 
 .footer__pre > a > p {
   text-align: center;
@@ -414,15 +283,14 @@ body {
 }
 
 .footer {
-  margin: 0;
-  padding: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer__contact {
   margin: 0;
-  padding: 0;
+  padding: 0, 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -451,10 +319,6 @@ body {
   color: #c2c2c2;
 }
 
-/* -----------------------------------tests */
-.bg-yellow {
-  background-color: rgb(172, 172, 96);
-}
 /*
 
 
@@ -471,9 +335,10 @@ body {
 
 
 */
-/* padding-top: 56.25%; / 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 @media (max-width: 611px) {
-  .header--title {
+  .header--title,
+  .main__title,
+  .showtools__title {
     font-size: 2.5rem;
   }
 
@@ -481,15 +346,15 @@ body {
     font-size: 1.2rem;
   }
 
-  .header-contact > li > a > i {
+  .header__contact > li > a > i {
     font-size: 1rem;
   }
 
-  .header-contact {
+  .header__contact {
     margin-left: 0;
   }
 
-  .header-contact > li > a {
+  .header__contact > li > a {
     font-size: 1rem;
     padding: 0;
   }

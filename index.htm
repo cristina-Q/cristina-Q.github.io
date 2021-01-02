@@ -311,7 +311,20 @@
   </footer>
 
 
-  <script> window.intergramId = "548050636" </script>
+  <script>
+    window.intergramId = "548050636";
+    window.intergramCustomizations = {
+      titleClosed: 'Closed chat',
+      titleOpen: 'Opened chat',
+      introMessage: 'First message when the user opens the chat for the first time',
+      autoResponse: 'A message that is sent immediately after the user sends its first message',
+      autoNoResponse: 'A message that is sent one minute after the user sends its first message ' +
+        'and no response was received',
+      mainColor: "#09DED8", // Can be any css supported color 'red', 'rgb(255,87,34)', etc
+      alwaysUseFloatingButton: true // Use the mobile floating button also on large screens
+    };
+  </script>
+  <!-- <script> window.intergramId = "548050636" </script> -->
   <script
     id="intergram"
     type="text/javascript"

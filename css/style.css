@@ -100,11 +100,21 @@ body {
   font-size: 1.5rem;
 }
 
-.logo > span:nth-child(1) {
-  color: var(--secondary-color);
+.item-bubble {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  /* border-radius: 28% 72% 54% 46% / 61% 40% 60% 39%; */
+  border-radius: 48% 67% 54% 48% / 61% 55% 60% 39%;
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
 }
 
-.logo > span:nth-child(2) {
+.logo span {
+  color: var(--secondary-color);
   font-size: 30px;
 }
 
@@ -171,18 +181,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-.item-bubble {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70px;
-  height: 70px;
-  border-radius: 28% 72% 54% 46% / 61% 40% 60% 39%;
-  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
 }
 
 /*                               MAIN   */
@@ -321,7 +319,7 @@ body {
   left: 3%;
 }
 .tools-wrapper span:nth-child(8) {
-  top: -73%;
+  top: -102%;
   left: 81%;
 }
 .tools-wrapper span:nth-child(9) {
@@ -355,6 +353,37 @@ body {
 
 /*                               FOOTER   */
 
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(45deg, #242424, #2b2b2b);
+  box-shadow: -8px -8px 0px #191919, 10px 9px 20px #bbbbbb;
+}
+
+.footer-wrapper {
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-wrapper > a > span {
+  font-size: 3rem;
+}
+
+.footer-wrapper > a > span:hover {
+  color: var(--secondary-color);
+}
+
+.logo-footer {
+  transform: scaleX(-1);
+}
+
+.logo-footer span {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
 .footer__pre > a > p {
   text-align: center;
   background-color: var(--secondary-color);
@@ -367,14 +396,6 @@ body {
 
 .footer__pre > a > p > i {
   font-size: 1.6rem;
-}
-
-.footer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: linear-gradient(45deg, #242424, #2b2b2b);
-  box-shadow: -8px -8px 0px #191919, 10px 9px 20px #bbbbbb;
 }
 
 .footer__contact {

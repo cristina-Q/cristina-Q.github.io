@@ -356,8 +356,9 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  padding-bottom: 10px;
   background: linear-gradient(45deg, #242424, #2b2b2b);
   box-shadow: -8px -8px 0px #191919, 10px 9px 20px #bbbbbb;
 }

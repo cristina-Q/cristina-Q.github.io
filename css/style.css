@@ -67,7 +67,6 @@ body {
 .header__contact {
   display: flex;
   margin-left: 37%;
-  padding: 2px 30px;
 }
 
 .header__contact > li > a > i {
@@ -426,10 +425,26 @@ body {
 
 */
 @media (max-width: 668px) {
+  .header__contact {
+    display: none;
+  }
+
+  .header__contact > li > a > i {
+    font-size: 1rem;
+  }
+
+  .header__contact > li > a {
+    font-size: 1rem;
+    padding: 0;
+  }
+
   .header--title,
   .main__title,
   .showtools__title {
     font-size: 2.5rem;
+  }
+  .header--title {
+    padding-top: 30px;
   }
 
   .showtools h2 {
@@ -441,19 +456,6 @@ body {
   }
   .header--subtitle > p {
     font-size: 1.2rem;
-  }
-
-  .header__contact > li > a > i {
-    font-size: 1rem;
-  }
-
-  .header__contact {
-    margin-left: 0;
-  }
-
-  .header__contact > li > a {
-    font-size: 1rem;
-    padding: 0;
   }
 
   .logo {
